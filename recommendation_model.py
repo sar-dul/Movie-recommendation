@@ -11,8 +11,8 @@ import streamlit as st
 # Load and preprocess data
 @st.cache_data
 def load_and_preprocess_data():
-    df_movies = pd.read_csv('data/big_movies.csv')
-    df_ratings = pd.read_csv('data/big_ratings.csv')
+    df_movies = pd.read_csv('big_movies.csv')
+    df_ratings = pd.read_csv('big_ratings.csv')
     
     df_movies.rename(columns={'movieId': 'movie_id'}, inplace=True)
     df_ratings.rename(columns={'movieId': 'movie_id', 'userId': 'User_ID'}, inplace=True)
