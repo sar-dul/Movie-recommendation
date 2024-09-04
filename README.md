@@ -36,7 +36,7 @@ The dataset used in this project can be found [here](https://drive.google.com/dr
 
 3. **Download the dataset**:
 
-   Download the dataset from the [link](https://drive.google.com/drive/folders/1WsUhSHgrMBzjfrLeQDKrf_Br0CXLQXam?usp=sharing) and place it in the appropriate directory.
+   Download the dataset from the [link](https://drive.google.com/drive/folders/1WsUhSHgrMBzjfrLeQDKrf_Br0CXLQXam?usp=sharing) 
 
 4. **Run the Streamlit app**:
 
@@ -56,16 +56,3 @@ Once the app is running, you can:
 - **User Feedback Mechanism**: You can implement a feedback mechanism to allow users to rate the recommendations, improving the model's accuracy over time.
 - **Personalized Dashboard**: Users can have a personalized recommendation dashboard that tracks their preferences and history.
 - **Enhanced Visualization**: Explore more visualization options like pie charts, histograms, or interactive plots to provide better insights.
-
-## Contributing
-
-Contributions are welcome! If you would like to contribute to this project, please fork the repository and submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
-## Contact
-
-For any queries, feel free to reach out at [your.email@example.com](mailto:your.email@example.com).
-# Movie-recommendation
