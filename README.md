@@ -36,7 +36,7 @@ The dataset used in this project can be found [here](https://drive.google.com/dr
 
 3. **Download the dataset**:
 
-   Download the dataset from the [link](https://drive.google.com/drive/folders/1WsUhSHgrMBzjfrLeQDKrf_Br0CXLQXam?usp=sharing) 
+   Download the dataset from the [link](https://drive.google.com/drive/folders/1WsUhSHgrMBzjfrLeQDKrf_Br0CXLQXam?usp=sharing)
 
 4. **Run the Streamlit app**:
 
@@ -44,15 +44,29 @@ The dataset used in this project can be found [here](https://drive.google.com/dr
     streamlit run app.py
     ```
 
+## Filtering Methods
+
+### Content-Based Filtering
+
+This method recommends movies based on the similarity between movie tags and the movie you liked. The cosine similarity of movie tags is used to find similar movies.
+
+![Content-Based](https://github.com/user-attachments/assets/7951252f-4f4c-4803-b44e-df21821df6cb)
+
+### Collaborative Filtering
+
+This method recommends movies based on the interaction data of other users who have rated or interacted with similar movies.
+
+![Collaborative](https://github.com/user-attachments/assets/7dcc23cb-adf0-4566-bd24-bc9660971f6e)
+
+### Hybrid Recommendation
+
+This method combines both collaborative and content-based filtering to provide better recommendations by considering both movie features and user interactions.
+
+![Hybrid](https://github.com/user-attachments/assets/0ac1353e-ef68-4da1-a92c-255b5274cb65)
+
 ## Usage
 
 Once the app is running, you can:
 - **Search for a movie** and get recommendations based on collaborative filtering or content-based filtering.
 - **View visualizations** of the similarity scores and recommended movies.
 - **Explore the hybrid recommendation system** that combines both filtering methods.
-
-## Additional Features
-
-- **User Feedback Mechanism**: You can implement a feedback mechanism to allow users to rate the recommendations, improving the model's accuracy over time.
-- **Personalized Dashboard**: Users can have a personalized recommendation dashboard that tracks their preferences and history.
-- **Enhanced Visualization**: Explore more visualization options like pie charts, histograms, or interactive plots to provide better insights.
